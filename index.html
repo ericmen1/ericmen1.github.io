@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Интернет-магазин</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a href="index.html">
+                    <h1 class="logo-text">Логотип</h1>
+                </a>
+            </div>
+
+            <div class="box">
+                <a href="index.html">
+                    <button type="button" class="button-catalog">
+                        <i class="fa-solid fa-bars font-awesome"></i>
+                        &nbsp;Каталог
+                    </button>
+                </a>
+            </div>
+
+            <form class="search-form">
+                <input type="search" autocomplete="off" class="search-bar" placeholder="Поиск..." name="q">
+                <button class="search-button" type="submit">
+                    <i class="fa-solid fa-magnifying-glass font-awesome"></i>
+                </button>
+            </form>
+
+            <div class="box">
+                <a href="index.html">
+                <button type="button" class="button-login">
+                    <i class="fa-solid fa-right-to-bracket font-awesome"></i>
+                        &nbsp;Войти
+                </button>
+                </a>
+            </div>
+
+            <div class="box">
+                <a href="index.html">
+                    <button class="button-cart">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                        &nbsp;Корзина
+                    </button>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <h2 class="section-header">Популярные категории:</h2>
+
+        <div class="grid-catalog">
+            <a href="#">
+                <div class="catalog-card">
+                    <div class="catalog-image">
+                        <img src="media/cat1.png" alt="Ноутбуки и аксессуары">
+                    </div>
+                    <span class="catalog-title">Ноутбуки и аксессуары</span>
+                </div>
+            </a>
+        
+            <a href="#">
+                <div class="catalog-card">
+                    <div class="catalog-image">
+                        <img src="media/cat2.png" alt="Персональные компьютеры">
+                    </div>
+                    <span class="catalog-title">Персональные компьютеры</span>
+                </div>
+            </a>
+        
+            <a href="#">
+                <div class="catalog-card">
+                    <div class="catalog-image">
+                        <img src="media/cat3.png" alt="Смартфоны">
+                    </div>
+                    <span class="catalog-title">Смартфоны</span>
+                </div>
+            </a>
+        
+            <a href="#">
+                <div class="catalog-card">
+                    <div class="catalog-image">
+                        <img src="media/cat4.png" alt="Смарт-часы и браслеты">
+                    </div>
+                    <span class="catalog-title">Смарт-часы и браслеты</span>
+                </div>
+            </a>
+        
+            <a href="#">
+                <div class="catalog-card">
+                    <div class="catalog-image">
+                        <img src="media/cat5.png" alt="Телевизоры">
+                    </div>
+                    <span class="catalog-title">Телевизоры</span>
+                </div>
+            </a>
+        
+            <a href="#">
+                <div class="catalog-card">
+                    <div class="catalog-image">
+                        <img src="media/cat6.png" alt="Игровые консоли">
+                    </div>
+                    <span class="catalog-title">Игровые консоли</span>
+                </div>
+            </a>
+        </div>
+    
+        <h2 class="section-header">Популярные товары:</h2>
+
+        <div class="grid-products">
+            <div class="product-card">
+                <a href="#">
+                    <span class="product-title">Телевизор <br> Xiaomi MI TV A2 43"</span>
+                    <div class="product-image">
+                        <img src="media/item1.jpg" alt='Телевизор Xiaomi MI TV A2 43"' class="product-img">
+                    </div>
+                </a>
+                <span class="product-price">
+                    28 999 ₽
+                    <a>
+                        <button class="buy-button">
+                            <i class="fa-solid fa-cart-plus font-awesome"></i>
+                        </button>
+                    </a>
+                </span>
+            </div>
+
+            <div class="product-card">
+                <a href="#">
+                    <span class="product-title">Ноутбук <br> MSI Katana 17</span>
+                    <div class="product-image">
+                        <img src="media/item2.jpg" alt='Ноутбук MSI Katana 17' class="product-img">
+                    </div>
+                </a>
+                <span class="product-price">
+                    149 999 ₽
+                    <a>
+                        <button class="buy-button">
+                            <i class="fa-solid fa-cart-plus font-awesome"></i>
+                        </button>
+                    </a>
+                </span>
+            </div>
+
+            <div class="product-card">
+                <a href="#">
+                    <span class="product-title">Кофемашина <br> Polaris PACM 2050SW </span>
+                    <div class="product-image">
+                        <img src="media/item3.jpg" alt='Кофемашина Polaris PACM 2050SW' class="product-img">
+                    </div>
+                </a>
+                <span class="product-price">
+                    31 999 ₽
+                    <a>
+                        <button class="buy-button">
+                            <i class="fa-solid fa-cart-plus font-awesome"></i>
+                        </button>
+                    </a>
+                </span>
+            </div>
+
+            <div class="product-card">
+                <a href="#">
+                    <span class="product-title">Умная колонка <br> Яндекс.Станция Макс</span>
+                    <div class="product-image">
+                        <img src="media/item4.jpg" alt='Умная колонка Яндекс.Станция Макс' class="product-img">
+                    </div>
+                </a>
+                <span class="product-price">
+                    34 999 ₽
+                    <a>
+                        <button class="buy-button">
+                            <i class="fa-solid fa-cart-plus font-awesome"></i>
+                        </button>
+                    </a>
+                </span>
+            </div>
+
+            <div class="product-card">
+                <a href="#">
+                    <span class="product-title">Монитор <br> LG UltraGear 27GN800-B</span>
+                    <div class="product-image">
+                        <img src="media/item5.jpg" alt='Монитор LG UltraGear 27GN800-B' class="product-img">
+                    </div>
+                </a>
+                <span class="product-price">
+                    25 999 ₽
+                    <a>
+                        <button class="buy-button">
+                            <i class="fa-solid fa-cart-plus font-awesome"></i>
+                        </button>
+                    </a>
+                </span>
+            </div>
+
+            <div class="product-card">
+                <a href="#">
+                    <span class="product-title">Колонки <br> Edifier R2750DB</span>
+                    <div class="product-image">
+                        <img src="media/item6.jpg" alt='Колонки Edifier R2750DB' class="product-img">
+                    </div>
+                </a>
+                <span class="product-price">
+                    31 999 ₽
+                    <a>
+                        <button class="buy-button">
+                            <i class="fa-solid fa-cart-plus font-awesome"></i>
+                        </button>
+                    </a>
+                </span>
+            </div>
+            
+            <div class="product-card">
+                <a href="#">
+                    <span class="product-title">Смартфон <br> Apple iPhone 15 128 ГБ</span>
+                    <div class="product-image">
+                        <img src="media/item7.jpg" alt='Смартфон Apple iPhone 15 128 ГБ' class="product-img">
+                    </div>
+                </a>
+                <span class="product-price">
+                    85 899 ₽
+                    <a>
+                        <button class="buy-button">
+                            <i class="fa-solid fa-cart-plus font-awesome"></i>
+                        </button>
+                    </a>
+                </span>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <a href="#" class="social">
+            <i class="fa-brands fa-vk social-buttons" style="color: #0c8efa;"></i>
+        </a>
+
+        <a href="#" class="social">
+            <i class="fa-brands fa-square-twitter social-buttons" style="color: #41a2ec;"></i>
+        </a>
+
+        <a href="#" class="social">
+            <i class="fa-brands fa-facebook social-buttons" style="color: #4267B2;"></i>
+        </a>
+
+        <a href="#" class="social">
+            <i class="fa-brands fa-youtube social-buttons" style="color: #FF0000;"></i>
+        </a>
+    </footer>
+
+    <script src="https://kit.fontawesome.com/8d1633cf39.js" crossorigin="anonymous"></script>
+</body>
+</html>
